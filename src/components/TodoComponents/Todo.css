@@ -1,0 +1,21 @@
+input,
+button {
+  font-size: 2rem;
+}
+
+button {
+  background: #fff;
+  border: 5px solid green;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo {
+  font-size: 4.5rem;
+  color: #fff;
+}
+
+.todo::selection {
+  background: none;
+}
